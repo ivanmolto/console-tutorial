@@ -94,18 +94,23 @@ Now click on Deploy.
 
 ![Deploy smart contract](images/deploying-contract.png)
 
-And accept the transaction with the fees (including gas cost). 
-
-Find more information on fees and gas in Hedera network in the following links.
-
-![Accept transaction](images/accepting-transaction.png)
-
-
 As you can see, the deployment starts with compiling the smart contract.
 
 
 Once the contract compiles, you can then make construct inputs. 
 In this tutorial, it is "Hello World".
+![Constructor inputs](images/constructor-inputs.png)
+
+Specify the smart contract duration with an expiring time.
+![Contract duration](images/contract-duration.png)
+
+![Set expiry time](images/set-expiry-time.png)
+
+And accept the transaction with the fees (including gas cost). 
+
+Find more information on fees in the following [link](https://www.hedera.com/fees "link")
+
+![Accept transaction](images/accepting-transaction.png)
 
 You can manage your contract in the Contracts tab.
 
