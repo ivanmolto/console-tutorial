@@ -25,13 +25,19 @@ In the next step, you will learn how to get a Hedera account.
 The faster way to get a Hedera account is through Composer. 
 
 Once you have the Composer extension installed, you need to sign in with your Google account. 
+
+![Hedera account login with Google](images/account-begin.png)
+
 This process links your Google account to a Hedera account, and give you an account ID.
 
-![Console from Hashing Systems](images/account-begin.png)
+![Hedera account getting started](images/account-getting-started.png)
+
 
 A Hedera account ID is what you need to identify yourself in any interaction on the Hedera network, including access to the mainnet or testnet, deploying a smart contract, and keep your cryptocurrency. 
 
-## 3 - Getting Hbar and transferring to your Account
+![Hedera account overview](images/account-overview.png)
+
+## 3 - Getting HBAR and transferring to your Account
 As you know from the previous step, once you have a Hedera account ID, cryptocurrency is what allows you to act on the network. Hedera's cryptocurrency is hbar (HBAR).
 
 But where to buy hbar coins? 
@@ -40,6 +46,8 @@ You can buy hbar through any of the major crypto exchanges.
 In the case of Binance, it was very clear and smooth the process of getting hbar and transfer it directly to the account created from the Composer for this tutorial.
 
 As you can see, the account ID from Composer now has some balance that will be needed to interact with the Hedera mainnet network and deploy the contract which is the goal of this tutorial.
+
+![Hedera account balance](images/account-balance.png)
 
 If you would prefer to use the testnet, you can also create an account on the testnet.
 
@@ -101,30 +109,3 @@ You've just deployed your first smart contract on the Hedera Hashgraph.
 
 Now you know everything needed to deploy smart contracts on Hedera using Console and Composer.
 Enjoy Hedera!
-
-
-
-
-
-
-
-
-
-The line `string public message` declares a public state variable called  `message` of type `string`
-The keyword `public`automatically generates a function that allows you to access the current value of the state variable from outside of the contract.
-
-The `constructor` is a special function run during the creation of the contract and cannot be called afterward.
-In this case, it takes a string value `initMessage`, stores the value in the memory data storage area, and sets message to that value.
-The `update`function is another public function that is similar to the constructor, taking a string as a parameter, and updating the `message` variable.
-
-Hello World
-A Hello World style starter project.
-Deploys a smart contract with a message.
-You can change the message using the interact panel!
-
-This template is a "Hello World" example that teaches you how to:
-- Provide arguments to a contract constructor using the Configure contract modal.
-- Store state in a contract and to updated it.
-- Fetch your newly creted contract's information from the blockchain and render it to a front end.
-
-
