@@ -14,16 +14,20 @@ Composer is for free and it does not charge any fees.
 
 Composer is distributed as a browser extension currently available on Chrome and Brave.
 
-We will use the Chrome extension for this tutorial, you can find it at:
-https://chrome.google.com/webstore/detail/composer-for-hedera-hashg/hdjnnemgikeoehneddegfcmkljenlean
+We will use the Chrome extension for this tutorial, you can find it here [Composer from Hashing Systems](https://chrome.google.com/webstore/detail/composer-for-hedera-hashg/hdjnnemgikeoehneddegfcmkljenlean "Composer Chrome extension")
+
+![Composer from Hashing Systems](images/composer-hashing-systems.png)
 
 To enter and interact with the Hedera network you require a Hedera account and some cryptocurrency.
 In the next step, you will learn how to get a Hedera account.
 
 ## 2 - Register and Account setup
-The faster way to get a Hedera account is through Composer.
+The faster way to get a Hedera account is through Composer. 
+
 Once you have the Composer extension installed, you need to sign in with your Google account. 
 This process links your Google account to a Hedera account, and give you an account ID.
+
+![Console from Hashing Systems](images/account-begin.png)
 
 A Hedera account ID is what you need to identify yourself in any interaction on the Hedera network, including access to the mainnet or testnet, deploying a smart contract, and keep your cryptocurrency. 
 
@@ -42,7 +46,10 @@ If you would prefer to use the testnet, you can also create an account on the te
 ## 4 - Environment setup: the Console
 There are different options to deploy a smart contract in Hedera such as using Eclipse or IntelliJ but the easiest and straightforward is the Console from Hashing Systems.
 
-Go to the Console (also called Deployer) at https://console.hashingsystems.com/
+Go to the Console (also called Deployer) here [Console from Hashing Systems](https://console.hashingsystems.com/ "Console from Hashing Systems")
+
+![Console from Hashing Systems](images/console-hashing-systems.png)
+
 
 The Console is the integrated development environment that makes easy to build, deploy, and track smart contracts directly from the web browser. The Console is like Remix and Studio for Ethereum and also uses Solidity, the most common smart contract language in use today.
 
@@ -60,7 +67,7 @@ You can start writing smart contracts right now, but this tutorial follows the t
 
 In the `Templates` tab, there is a `Select Template` menu, let's choose `Hello World`.
 
-![Select Template](images/select-template.png)
+![Select Template smart contract](images/select-template.png)
 
 
 This is a simple but interesting smart contract that will greet us with a message that you can change. 
