@@ -92,7 +92,14 @@ Before deploying a smart contract make sure you use the correct network set up i
 
 Now click on Deploy. 
 
-You can manage your contract in the Contracts tab.
+![Deploy smart contract](images/deploying-contract.png)
+
+And accept the transaction with the fees (including gas cost). 
+
+Find more information on fees and gas in Hedera network in the following links.
+
+![Accept transaction](images/accepting-transaction.png)
+
 
 As you can see, the deployment starts with compiling the smart contract.
 
@@ -100,12 +107,12 @@ As you can see, the deployment starts with compiling the smart contract.
 Once the contract compiles, you can then make construct inputs. 
 In this tutorial, it is "Hello World".
 
+You can manage your contract in the Contracts tab.
 
+![Contract tab](images/contract-tab.png)
 
 Congratulations! 
 You've just deployed your first smart contract on the Hedera Hashgraph.
 
-
-
-Now you know everything needed to deploy smart contracts on Hedera using Console and Composer.
+Now, you know everything needed to deploy smart contracts on Hedera using Console and Composer.
 Enjoy Hedera!
