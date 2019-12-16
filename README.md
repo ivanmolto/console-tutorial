@@ -62,7 +62,7 @@ In the `Templates` tab, there is a `Select Template` menu, let's choose `Hello W
 This is a simple but interesting smart contract that will greet us with a message that you can change. 
 As a quick summary it provides an argument to a constructor, stores state and fetches it.
 
-![Hello World Smart Contract](https://github.com/ivanmolto/console-tutorial/master/raw/images/hello-world-smart-contract.png)
+![Hello World smart contract](images/hello-world-smart-contract.png)
 
 
 Now that we have a smart contract, it is time to look into how to deploy it in the Hedera network.
