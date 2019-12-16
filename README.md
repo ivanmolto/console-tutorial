@@ -59,6 +59,10 @@ New features will be added in the future such as `Team` and `Analytics`.
 You can start writing smart contracts right now, but this tutorial follows the tradition of programming with a "Hello World" smart contract.
 
 In the `Templates` tab, there is a `Select Template` menu, let's choose `Hello World`.
+
+![Select Template](images/select-template.png)
+
+
 This is a simple but interesting smart contract that will greet us with a message that you can change. 
 As a quick summary it provides an argument to a constructor, stores state and fetches it.
 
